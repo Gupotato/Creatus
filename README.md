@@ -1,3 +1,3 @@
-# Creatus---HTML-CSS
+# Creatus: HTML - CSS
 
 Welcome to the new stage of history
