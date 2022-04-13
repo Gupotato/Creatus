@@ -1,3 +1,3 @@
 # Site Creatus (HTML/CSS)
 
-Welcome to the new stage of history
+Hesitation is defeat.
