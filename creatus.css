@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'poppinsregular';
+    src: url(./Fonts/Poppins/poppins-regular-webfont.woff2) format('woff2'),
+         url(./Fonts/Poppins/poppins-regular-webfont.woff) format('woff'),
+         url(./Fonts/Poppins/poppins-regular-webfont.ttf) format('truetype'),
+         url(./Fonts/Poppins/poppins-regular-webfont.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('./Fonts/Poppins/poppins-bold-webfont.woff2') format('woff2'),
+         url('./Fonts/Poppins/poppins-bold-webfont.woff') format('woff'),
+         url('./Fonts/Poppins/poppins-bold-webfont.ttf') format('truetype'),
+         url('./Fonts/Poppins/poppins-bold-webfont.svg#poppinsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('./Fonts/Poppins/poppins-light-webfont.woff2') format('woff2'),
+         url('./Fonts/Poppins/poppins-light-webfont.woff') format('woff'),
+         url('./Fonts/Poppins/poppins-light-webfont.ttf') format('truetype'),
+         url('./Fonts/Poppins/poppins-light-webfont.svg#poppinslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('./Fonts/Poppins/poppins-semibold-webfont.woff2') format('woff2'),
+         url('./Fonts/Poppins/poppins-semibold-webfont.woff') format('woff'),
+         url('./Fonts/Poppins/poppins-semibold-webfont.ttf') format('truetype'),
+         url('./Fonts/Poppins/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #FEFEFE
+}
+
+.menu {
+    position: absolute;
+    width: 26px;
+    height: 16px;
+    left: 84px;
+    top: 60px;
+
+    background: url(./Assets/menupop.svg);
+}
+
+.logo {
+    position: absolute;
+    width: 82px;
+    height: 44px;
+    left: 134px;
+    top: 45px;
+
+    background: url(./Assets/Logo.png);
+}
+
+.home {
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 238px;
+    top: 55px;
+
+    background: #000000;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+
+    font-family: 'poppinssemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #FEFEFE;
+}
+
+.quemsomos {
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 385px;
+    top: 55px;
+    
+    background: #FEFEFE;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+
+    font-family: 'poppinssemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #000000
+}
+
+.servicos {
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 532px;
+    top: 55px;
+
+    background: #FEFEFE;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+
+    font-family: 'poppinssemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #000000
+}
+
+.portfolio {
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 679px;
+    top: 55px;      
+
+    background: #FEFEFE;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+
+    font-family: 'poppinssemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #000000
+}
+
+.intro {
+    position: absolute;
+    width: 328px;
+    height: 129px;
+    left: 74px;
+    top: 325px;
+
+    font-family: 'poppinslight';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 60px;
+    /* or 86% */
+
+
+    color: #353535;
+}
+
+.bolder {
+    font-family: 'poppinsbold';
+}
+
+.origem {
+    position: absolute;
+    width: 597px;
+    height: 199px;
+    left: 76px;
+    top: 544px;
+
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* or 120% */
+
+
+    color: #000000;
+}
+
+.subtext {
+    position: absolute;
+    width: 597px;
+    height: 199px;
+    left: 76px;
+    top: 646px;
+
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 120% */
+}
+
+.instagram {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 280px;
+    top: 780px;
+
+    background: url(Assets/Icons/instagram.svg);
+}
+
+.behance {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 315px;
+    top: 780px;
+
+    background: url(Assets/Icons/behance.svg);
+}
+
+.spotify {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 350px;
+    top: 780px;
+
+    background: url(Assets/Icons/spotify.svg);
+}
+
+.email {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 385px;
+    top: 780px;
+
+    background: url(Assets/Icons/email.svg);
+}
+
+.retangulo1 {
+    position: absolute;
+    width: 28%;
+    height: 416px;
+    left: 76px;
+    top: 328px;   
+}
+
+.estatua1 {
+    position: absolute;
+    width: 100%;
+    height: 456px;
+    left: 0px;
+    top: 490px;
+}
+
+.elipse1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 200px;
+    top: 100px;
+}
