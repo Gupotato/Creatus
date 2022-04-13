@@ -255,10 +255,10 @@ body {
 
 .retangulo1 {
     position: absolute;
-    width: 7px;
-    height: 416px;
+    width: 416px;
+    height: 7px;
     left: 76px;
-    top: 328px;   
+    top: 536px; 
 }
 
 .estatua1 {
