@@ -1,2 +1,3 @@
-@import url(creatus.css) (max-width:1920px);
-@import url(breatus.css) (min-width:1280px);
+@import url(creatus.css); 
+@import url(breatus.css) (max-width: 1366px);
+@import url(yeeatus.css) (max-width: 912px);
