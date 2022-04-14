@@ -53,6 +53,8 @@ body {
 }
 
 .menu {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 26px;
     height: 16px;
@@ -63,6 +65,8 @@ body {
 }
 
 .logo {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 82px;
     height: 44px;
@@ -73,6 +77,8 @@ body {
 }
 
 .home {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 132px;
     height: 24px;
@@ -80,7 +86,7 @@ body {
     top: 55px;
 
     background: #000000;
-    border: 2px solid #000000;
+    /*border: 2px solid #000000;*/
     box-sizing: border-box;
     border-radius: 9px;
 
@@ -96,6 +102,8 @@ body {
 }
 
 .quemsomos {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 132px;
     height: 24px;
@@ -103,7 +111,7 @@ body {
     top: 55px;
     
     background: #FEFEFE;
-    border: 2px solid #000000;
+    /*border: 2px solid #000000;*/
     box-sizing: border-box;
     border-radius: 9px;
 
@@ -119,6 +127,8 @@ body {
 }
 
 .servicos {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 132px;
     height: 24px;
@@ -126,7 +136,7 @@ body {
     top: 55px;
 
     background: #FEFEFE;
-    border: 2px solid #000000;
+    /*border: 2px solid #000000;*/
     box-sizing: border-box;
     border-radius: 9px;
 
@@ -142,6 +152,8 @@ body {
 }
 
 .portfolio {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 132px;
     height: 24px;
@@ -149,7 +161,7 @@ body {
     top: 55px;      
 
     background: #FEFEFE;
-    border: 2px solid #000000;
+    /*border: 2px solid #000000;*/
     box-sizing: border-box;
     border-radius: 9px;
 
@@ -165,6 +177,8 @@ body {
 }
 
 .intro {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 328px;
     height: 129px;
@@ -183,10 +197,14 @@ body {
 }
 
 .bolder {
+    border-style: solid;
+    border-color: red;
     font-family: 'poppinsbold';
 }
 
 .origem {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 597px;
     height: 199px;
@@ -205,6 +223,8 @@ body {
 }
 
 .subtext {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 597px;
     height: 199px;
@@ -220,6 +240,8 @@ body {
 }
 
 .instagram {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 22px;
     height: 22px;
@@ -230,6 +252,8 @@ body {
 }
 
 .behance {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 24px;
     height: 24px;
@@ -240,6 +264,8 @@ body {
 }
 
 .spotify {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 22px;
     height: 22px;
@@ -250,6 +276,8 @@ body {
 }
 
 .email {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 23px;
     height: 23px;
@@ -260,6 +288,8 @@ body {
 }
 
 .retangulo1 {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 416px;
     height: 7px;
@@ -268,6 +298,8 @@ body {
 }
 
 .estatua1 {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 366px;
     height: 456px;
@@ -276,6 +308,8 @@ body {
 }
 
 .elipse1 {
+    border-style: solid;
+    border-color: red;
     position: absolute;
     width: 1140px;
     height: 1000px;
