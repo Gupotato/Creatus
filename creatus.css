@@ -83,6 +83,12 @@ body {
     background-color: #FEFEFE
 }
 
+.navbar{
+    display:flex;
+    justify-content: center;
+    background-color: #353535;
+}
+
 .menu {
     position: absolute;
     width: 26px;
