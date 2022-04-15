@@ -2,83 +2,6 @@
     outline: 1px solid red;
    } */
 
-@font-face {
-    font-family: 'poppinsregular';
-    src: url(./Fonts/Poppins/poppins-regular-webfont.woff2) format('woff2'),
-         url(./Fonts/Poppins/poppins-regular-webfont.woff) format('woff'),
-         url(./Fonts/Poppins/poppins-regular-webfont.ttf) format('truetype'),
-         url(./Fonts/Poppins/poppins-regular-webfont.svg) format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'poppinsbold';
-    src: url('./Fonts/Poppins/poppins-bold-webfont.woff2') format('woff2'),
-         url('./Fonts/Poppins/poppins-bold-webfont.woff') format('woff'),
-         url('./Fonts/Poppins/poppins-bold-webfont.ttf') format('truetype'),
-         url('./Fonts/Poppins/poppins-bold-webfont.svg#poppinsbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'poppinslight';
-    src: url('./Fonts/Poppins/poppins-light-webfont.woff2') format('woff2'),
-         url('./Fonts/Poppins/poppins-light-webfont.woff') format('woff'),
-         url('./Fonts/Poppins/poppins-light-webfont.ttf') format('truetype'),
-         url('./Fonts/Poppins/poppins-light-webfont.svg#poppinslight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'poppinssemibold';
-    src: url('./Fonts/Poppins/poppins-semibold-webfont.woff2') format('woff2'),
-         url('./Fonts/Poppins/poppins-semibold-webfont.woff') format('woff'),
-         url('./Fonts/Poppins/poppins-semibold-webfont.ttf') format('truetype'),
-         url('./Fonts/Poppins/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'poppinsextralight';
-    src: url('./Fonts/Poppins/poppins-extralight-webfont.woff2') format('woff2'),
-         url('./Fonts/Poppins/poppins-extralight-webfont.woff') format('woff'),
-         url('./Fonts/Poppins/poppins-extralight-webfont.ttf') format('truetype'),
-         url('./Fonts/Poppins/poppins-extralight-webfont.svg#poppinsextralight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'poppinsmedium';
-    src: url('./Fonts/Poppins/poppins-medium-webfont.woff2') format('woff2'),
-         url('./Fonts/Poppins/poppins-medium-webfont.woff') format('woff'),
-         url('./Fonts/Poppins/poppins-medium-webfont.ttf') format('truetype'),
-         url('./Fonts/Poppins/poppins-medium-webfont.svg#poppinsmedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'poppinsthin';
-    src: url('Fonts/Poppins/poppins-thin-webfont.woff2') format('woff2'),
-         url('Fonts/Poppins/poppins-thin-webfont.woff') format('woff'),
-         url('Fonts/Poppins/poppins-thin-webfont.ttf') format('truetype'),
-         url('Fonts/Poppins/poppins-thin-webfont.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 body {
     background-color: #FEFEFE
 }
@@ -115,8 +38,7 @@ body {
     box-sizing: border-box;
     border-radius: 9px;
 
-    font-family: 'poppinssemibold';
-    font-style: normal;
+    font-family: 'Poppins';
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
@@ -138,8 +60,7 @@ body {
     box-sizing: border-box;
     border-radius: 9px;
 
-    font-family: 'poppinssemibold';
-    font-style: normal;
+    font-family: 'Poppins';
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
@@ -161,8 +82,7 @@ body {
     box-sizing: border-box;
     border-radius: 9px;
 
-    font-family: 'poppinssemibold';
-    font-style: normal;
+    font-family: 'Poppins';
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
@@ -184,8 +104,7 @@ body {
     box-sizing: border-box;
     border-radius: 9px;
 
-    font-family: 'poppinssemibold';
-    font-style: normal;
+    font-family: 'Poppins';
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
@@ -202,8 +121,7 @@ body {
     left: 74px;
     top: 325px;
 
-    font-family: 'poppinslight';
-    font-style: normal;
+    font-family: 'Poppins';
     font-weight: 300;
     font-size: 70px;
     line-height: 60px;
@@ -213,10 +131,6 @@ body {
     color: #353535;
 }
 
-.bolder1 {
-    font-family: 'poppinsbold';
-}
-
 .origem {
     position: absolute;
     width: 597px;
@@ -224,8 +138,7 @@ body {
     left: 76px;
     top: 544px;
 
-    font-family: 'poppinsregular';
-    font-style: normal;
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
@@ -240,11 +153,11 @@ body {
     width: 597px;
     height: 199px;
     left: 76px;
-    top: 646px;
+    top: 650px;
 
-    font-family: 'poppinslight';
+    font-family: 'Poppins';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 275;
     font-size: 20px;
     line-height: 26px;
     /* or 120% */
@@ -321,8 +234,7 @@ body {
     left: 1360px;
     top: 460px;
 
-    font-family: 'poppinsregular';
-    font-style: normal;
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
@@ -334,20 +246,19 @@ body {
 
 .saibaMais {
     position: absolute;
-    width: 132px;
+    width: 102px;
     height: 24px;
     left: 1360px;
     top: 550px;
 
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
     box-sizing: border-box;
     border-radius: 9px;
 
-    font-family: 'poppinssemibold';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    letter-spacing: 0.5px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+
     line-height: 20px;
     text-align: center;
     text-decoration: none;
@@ -363,8 +274,7 @@ body {
     left: 530px;
     top: 1040px;
 
-    font-family: 'poppinsbold';
-    font-style: normal;
+    font-family: 'Poppins';
     font-weight: 700;
     font-size: 70px;
     line-height: 60px;
@@ -382,8 +292,9 @@ body {
     left: 480px;
     top: 1140px;
 
-    font-family: 'poppinslight';
-    font-size: 28px;
+    font-family: 'Poppins';
+    font-weight: 275;
+    font-size: 30px;
     line-height: 35px;
     /* or 117% */
 
@@ -392,8 +303,9 @@ body {
     color: #000000;
 }
 
-.bolder2 {
-    font-family: 'poppinsregular';
+.normal
+{
+    font-weight: 400;
 }
 
 .diamond1 {
