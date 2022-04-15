@@ -1,7 +1,9 @@
 /* *{
     outline: 1px solid red;
    } */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/*
 @font-face {
     font-family: 'poppinsregular';
     src: url(./Fonts/Poppins/poppins-regular-webfont.woff2) format('woff2'),
@@ -79,64 +81,62 @@
 
 }
 
+*/
+
 body {
     background-color: #FEFEFE
 }
 
 .navbar{
     display:flex;
-    justify-content: center;
-    background-color: #353535;
+    flex-direction: row;
+    background-color: red;
+    /*justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;*/
 }
 
 .menu {
-    position: absolute;
     width: 26px;
     height: 16px;
-    left: 84px;
-    top: 60px;
+
 
     background: url(./Assets/menupop.svg);
 }
 
 .logo {
-    position: absolute;
     width: 82px;
     height: 44px;
-    left: 134px;
-    top: 45px;
+
 
     background: url(./Assets/Logo.png);
 }
 
 .home {
-    position: absolute;
     width: 132px;
     height: 24px;
-    left: 238px;
-    top: 55px;
+    margin-left: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     background: #000000;
     border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 9px;
 
-    font-family: 'poppinssemibold';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 600;
     font-size: 12px;
-    line-height: 20px;
-    text-align: center;
     text-decoration: none;
-
+    
     color: #FEFEFE;
 }
 
 .quemsomos {
-    position: absolute;
     width: 132px;
     height: 24px;
-    left: 385px;
     top: 55px;
     
     background: #FEFEFE;
@@ -144,7 +144,7 @@ body {
     box-sizing: border-box;
     border-radius: 9px;
 
-    font-family: 'poppinssemibold';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -156,10 +156,8 @@ body {
 }
 
 .servicos {
-    position: absolute;
     width: 132px;
     height: 24px;
-    left: 532px;
     top: 55px;
 
     background: #FEFEFE;
@@ -167,7 +165,7 @@ body {
     box-sizing: border-box;
     border-radius: 9px;
 
-    font-family: 'poppinssemibold';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -179,10 +177,8 @@ body {
 }
 
 .portfolio {
-    position: absolute;
     width: 132px;
     height: 24px;
-    left: 679px;
     top: 55px;      
 
     background: #FEFEFE;
@@ -190,7 +186,7 @@ body {
     box-sizing: border-box;
     border-radius: 9px;
 
-    font-family: 'poppinssemibold';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -208,7 +204,7 @@ body {
     left: 74px;
     top: 325px;
 
-    font-family: 'poppinslight';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 70px;
@@ -220,7 +216,7 @@ body {
 }
 
 .bolder1 {
-    font-family: 'poppinsbold';
+    font-family: 'Poppins', sans-serif;
 }
 
 .origem {
@@ -230,7 +226,7 @@ body {
     left: 76px;
     top: 544px;
 
-    font-family: 'poppinsregular';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -248,7 +244,7 @@ body {
     left: 76px;
     top: 646px;
 
-    font-family: 'poppinslight';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -327,7 +323,7 @@ body {
     left: 1360px;
     top: 460px;
 
-    font-family: 'poppinsregular';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -349,7 +345,7 @@ body {
     box-sizing: border-box;
     border-radius: 9px;
 
-    font-family: 'poppinssemibold';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -369,7 +365,7 @@ body {
     left: 530px;
     top: 1040px;
 
-    font-family: 'poppinsbold';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
@@ -388,7 +384,7 @@ body {
     left: 480px;
     top: 1140px;
 
-    font-family: 'poppinslight';
+    font-family: 'Poppins', sans-serif;
     font-size: 28px;
     line-height: 35px;
     /* or 117% */
@@ -399,7 +395,7 @@ body {
 }
 
 .bolder2 {
-    font-family: 'poppinsregular';
+    font-family: 'Poppins', sans-serif;
 }
 
 .diamond1 {
