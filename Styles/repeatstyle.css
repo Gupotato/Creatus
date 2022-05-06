@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    /*outline: 0.052vw solid red;*/
+    
+}
+
+body{
+    font-family: 'Poppins', 'sans-serif';
+    color: #000;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+img{
+    width: 100%;
+}
+
+/* Header */
+
+.header .grid{
+    grid-template-columns: 100%;
+    justify-items: center;
+}
+
+.header img:first-of-type{
+    width: 7.656vw;
+    margin-top: 2.865vw;
+}
+
+.header img:nth-of-type(2){
+    width: 2.370vw;
+    justify-self: flex-start;
+    margin-left: 4.635vw;
+}
+
+.header img:nth-of-type(3){
+    width: 53.490vw;
+    height: 1.198vw;
+    transform: rotate(180deg);
+}
+
+.header h1{
+    font-size: 4.167vw;
+    line-height: 1.563vw;
+    margin: 5.052vw 0 3.073vw 0;
+}
+
+/* Social Media */
+
+.socialmedia p:first-of-type{
+    font-weight: 300;
+    font-size: 1.823vw;
+    line-height: 2.604vw;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.socialmedia p:nth-of-type(2){
+    font-size: 1.302vw;
+    line-height: 1.563vw;
+    text-align: center;
+    margin-top: 4.174vw;
+    margin-bottom: 2.240vw;
+}
+
+.socialmedia h1{
+    font-weight: 600;
+    font-size: 3.125vw;
+    line-height: 1.042vw;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.socialmedia> img:first-of-type{
+    transform: rotate(180deg);
+    width: 25.683vw;
+    height: 0.745vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.socialmedia> img:nth-of-type(2){
+    margin-top: 4.046vw;
+    height: 50.420vw;
+}
+
+.socialmedia .container{
+    margin-top: -52vw;
+}
+
+.socialmedia .container img:first-of-type{
+    width: 14.375vw;
+    height: 17.083vw;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.socialmedia .container img:nth-of-type(2){
+    width: 14.375vw;
+    height: 17.083vw;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.socialmedia .container img:nth-of-type(3){
+    width: 14.375vw;
+    height: 17.083vw;
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.socialmedia .container img:nth-of-type(4){
+    width: 34.546vw;
+    height: 0.756vw;
+    grid-row: 2;
+    grid-column: 2;
+    margin: 1.563vw;
+}
+
+.socialmedia .container img:nth-of-type(5){
+    width: 14.375vw;
+    height: 17.083vw;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.socialmedia .container img:nth-of-type(6){
+    width: 14.375vw;
+    height: 17.083vw;
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.socialmedia .container img:nth-of-type(7){
+    width: 14.375vw;
+    height: 17.083vw;
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.socialmedia .container img:nth-of-type(8){
+    width: 34.546vw;
+    height: 0.756vw;
+    grid-row: 4;
+    grid-column: 2;
+    margin: 1.563vw;
+}
+
+.socialmedia .container img:nth-of-type(9){
+    width: 14.375vw;
+    height: 17.083vw;
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.socialmedia .container img:nth-of-type(10){
+    width: 14.375vw;
+    height: 17.083vw;
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.socialmedia .container img:nth-of-type(11){
+    width: 14.375vw;
+    height: 17.083vw;
+    grid-row: 5;
+    grid-column: 3;
+}
+
+.socialmedia .grid{
+    grid-template-columns: repeat(3, 14.31vw);
+    justify-items: center;
+}
+
+/* Footer */
+
+.foot img{
+    transform: rotate(180deg);
+    width: 53.490vw;
+    height: 1.198vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.foot a{
+    font-weight: 300;
+    font-size: 1.042vw;
+    line-height: 1.042vw;
+    border: 0.052vw solid #000000;
+    border-radius: 1.563vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15.383vw;
+    height: 2.431vw;
+    color: #000;
+    margin-top: 2.969vw;
+    margin-bottom: 3.327vw;
+}
+
+.foot a:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.foot .grid{
+    grid-template-columns: repeat(2, 15.383vw);
+    gap: 1.931vw;
+}
+
+/* Utilities */
+
+.container{
+    max-width: 1920px;
+    overflow: auto;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
