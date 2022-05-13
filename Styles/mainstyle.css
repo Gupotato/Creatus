@@ -27,6 +27,88 @@ img{
     width: 100%;
 }
 
+/* Menu */
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow: hidden;
+    transition: 0.2s;  
+}  
+
+.closebtn img {
+    width: 1.510vw; 
+    height: 1.510vw; 
+}
+
+.closebtn {
+    display: flex;
+    width: 1.510vw;
+    height: 1.510vw;
+    margin: 1.875vw 0 1.875vw 1.146vw;
+}
+
+.sidebar ul{
+    margin-top: 2.604vw;
+}
+
+.sidebar li{
+    display: flex;
+}
+
+.sidebar li:before{ 
+    content:"·";
+    font-size: 4vw;
+    line-height: 2.1vw;
+    margin-right: 0.260vw;
+}
+
+.sidebar > img:first-of-type{
+    width: 0.469vw;
+    height: 32.031vw;
+    float: left;
+    margin-left: 1.667vw;
+    margin-right: 1vw;
+}
+
+.sidebar > img:nth-of-type(2){
+    width: 4.271vw;
+    margin: 4.688vw auto 0 auto;
+    display: block;
+}
+
+.sidebar a{
+    font-weight: 400;
+    font-size: 1.563vw;
+    line-height: 2.083vw;
+    color: #000; 
+}
+
+.sidebar p{
+    font-weight: 600;
+    font-size: 1.563vw;
+    line-height: 2.083vw;
+    margin-top: 0.573vw;
+}
+
+.sidebar .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.771vw;
+    margin-right: 0.833vw;
+}
+
+.sidebar .icons img{
+    width: 1.335vw;
+    margin-left: 0.833vw;
+}
+
 /* Navbar */
 
 .navbar{
@@ -61,17 +143,26 @@ img{
 }
 
 .navbar img{
-    width: 1.354vw;
-    margin: 0 0 0 84px;
-}
-
-.navbar img:nth-of-type(2){
     width: 4.271vw;
     margin: 0 22px 0 24px;
 }
 
 .navbar .flex{
     justify-content: start;
+}
+
+.navbar button{
+    width: 2.370vw;
+    height: 2.370vw;
+    justify-self: flex-start;
+    margin-left: 4.635vw;
+    background-image:url('../Assets/menupop.svg'); 
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 /* Intro */
@@ -379,6 +470,10 @@ img{
     line-height: 1.042vw;
     text-align: center;
     color: #FFFFFF;
+}
+
+.carrosel img:first-of-type{
+    height: 1042px;
 }
 
 .carrosel img:nth-of-type(2){
